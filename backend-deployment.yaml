@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: thapeloseema/capitec-user-service:frontend-windows-latest
+        image: thapeloseema/capitec-user-service:backend-windows-latest
         ports:
         - containerPort: 8080
         env:
